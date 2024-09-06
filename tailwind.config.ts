@@ -19,7 +19,7 @@ const config: Config = {
         head:['font-family: "Poppins", sans-serif;'],
         cont:['font-family: "Oswald", sans-serif;'],
         
-      }
+      },
     },
   },
   plugins: [],
