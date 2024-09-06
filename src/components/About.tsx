@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Bebas_Neue } from 'next/font/google';
 import { FaRegCircleCheck } from "react-icons/fa6";
 
@@ -35,13 +35,13 @@ const About = () => {
 
       <div className='md:w-full w-auto md:h-[200px] h-[400px]    flex  justify-center items-center  '>
        <div className='md:flex md:justify-center items-center content-center  md:w-full md:space-x-5 mt-5'>
-        <div className=' md:mx-0 mx-auto md:w-[400px] w-[350px]  h-[170px] border border-dashed border-gray-800 text-center p-2'>
+        <div className=' md:mx-0 mx-auto md:w-[320px] w-[350px]  h-[170px] border border-dashed border-gray-800 text-center p-2'>
           <h2 className='font-bold text-[#f99b27]'>Our Vision</h2>
-          <p className='text-gray-800 font-bold'> We envision ourselves as a partner of choice, providing value to customers and creating opportunities for their long-term and sustainable growth.</p>
+          <p className='text-gray-800 font-bold md:font-normal  '> We envision ourselves as a partner of choice, providing value to customers and creating opportunities for their long-term and sustainable growth.</p>
         </div>
-        <div className='mt-2 md:mt-0  mx-auto md:mx-0 md:w-[400px] w-[350px] h-[170px] border border-dashed border-gray-800 text-center p-2'>
+        <div className='mt-2 md:mt-0  mx-auto md:mx-0 md:w-[320px] w-[350px] h-[170px] border border-dashed border-gray-800 text-center p-2'>
           <h2 className='font-bold text-[#f99b27]'>Our Mission</h2>
-          <p className='text-gray-800 font-bold'>Our mission is to become the leading provider of value-added virtual assistant services globally and achieve it with the highest level of integrity and transparency, helping clients meet their business goals.</p>
+          <p className='text-gray-800 font-bold md:font-normal'>Our mission is to become the leading provider of value-added virtual assistant services globally and achieve it with the highest level of integrity and transparency, helping clients meet their business goals.</p>
         </div>
         </div>
       </div>

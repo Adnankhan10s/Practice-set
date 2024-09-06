@@ -3,7 +3,7 @@ import React from 'react';
 import {motion} from 'framer-motion';
 import { Bebas_Neue } from 'next/font/google';
 import Link from 'next/link';
-import {MdOutlineKeyboardArrowRight} from "react-icons/md"
+import {MdOutlineKeyboardArrowRight} from "react-icons/md";
 
 
 const listLinks=[
@@ -22,16 +22,19 @@ const listLinks=[
 const bebasneue = Bebas_Neue({
     weight: '400',
     subsets: ['latin'],
-    display: 'swap'
+    display: 'swap',
   })
 
 const Services = () => {
   return (
-   <div className='md:w-full bg-[#e9d9bd] flex justify-center md:h-[600px] h-[900px] ' id='services'>
+   <div className='md:w-full bg-[#e9d9bd] flex justify-center md:h-[600px] h-[800px] ' id='services'>
     <motion.div
-    
+    initial={{opacity:0 , scale:0 }}
+    whileInView={{opacity:1 , scale: 1}}
+    transition={{duration:0.6}}
+    viewport={{once:true}}
 
-    className='md:w-[850px] px-3  text-center pt-6 md:h-screen mt-4 overflow-clip '
+    className='md:w-[850px] px-3  text-center pt-6 md:h-[500px] mt-4 overflow-clip '
     >
       <div className='text-2xl md:text-4xl font-bold'>
         <h1 className={bebasneue.className}>WHAT VIRTUAL ASSISSTANT SERVICES</h1>
@@ -43,7 +46,7 @@ const Services = () => {
  <div className='grid md:grid-cols-2   md:gap-x-16 gap-y-2 mt-10  '>
           {listLinks.map((link,index)=>(
            
-       <Link href={link.path} className='  px-2 py-2 border hover:bg-[#f99b27] hover:border-white hover:text-white border-[#f99b27]  text-[#f99b27] text-start items-end gap-4 inline-flex font-bold   'key={index}>
+       <Link href={link.path} className=' md:text-[14px] text-[12px]  px-2 py-2 border hover:bg-[#f99b27] hover:border-white hover:text-white border-[#f99b27]  text-[#f99b27] text-start md:items-end gap-4 inline-flex font-bold   'key={index}>
          
              {link.title} <MdOutlineKeyboardArrowRight size={20}  /> 
              </Link>

@@ -1,10 +1,10 @@
 
 "use client"
-import Link from 'next/link'
-import React, { useState } from 'react'
-import {FaRegistered } from 'react-icons/fa'
-import {AiOutlineClose , AiOutlineMenu} from 'react-icons/ai'
-import {motion} from 'framer-motion'
+import Link from 'next/link';
+import React, { useState } from 'react';
+import {FaRegistered } from 'react-icons/fa';
+import {AiOutlineClose , AiOutlineMenu} from 'react-icons/ai';
+import {motion} from 'framer-motion';
 
 
 
@@ -29,27 +29,27 @@ const Navbar = () => {
         x : 0,
     transition:{
         stiffness: 20,
-        damping :15
+        damping :15,
     }},
     closed:{
         x:'-100%',
         transition:{
             stiffness:20,
-            damping:15
+            damping:15,
         }
     }
    }
   return (
     <nav>
-        <div className='hidden md:flex md:w-full h-[70px]  bg-[#0066cc] text-white p-4 shadow-md  fixed  '>  
+        <div className='hidden md:flex md:w-full h-[60px]  bg-[#0066cc] text-white p-4 shadow-md  fixed  '>  
         <div className='flex justify-between items-center text-center  w-[100%] '>
         <div className='flex p-2 '>
             <h1 className='font-bold text-6xl font-signature'><Link href={"/"}>MN</Link></h1>
-           <p className='font-semibold text-2xl p-2 font-para bg-gradient-to-b from-[#ff874a]  to-[#ffd9b2] inline-block text-transparent bg-clip-text'>Trusted </p>
-            <FaRegistered size={15} className='text-[#ff874a]' />
+           <p className='font-semibold text-2xl font-para bg-gradient-to-b from-[#ff874a]  to-[#ffd9b2] inline-block text-transparent bg-clip-text'>Trusted </p>
+            <FaRegistered size={15} className='text-[#ff874a] pt-2 ' />
             </div>
             <div className=''>
-                <ul className='flex gap-8 pr-4 text-lg font-semibold'>
+                <ul className='flex gap-4 pr-2 text-[16px] font-semibold'>
                     {navLinks.map((link , index)=>(
                        <li key={index} className='hover:text-[#ff874a]'>
                         <Link href={link.path}>{link.title}</Link>

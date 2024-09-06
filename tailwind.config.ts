@@ -14,10 +14,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily:{
-        signature:[' "DM Serif Text", serif;'],
+        signature:['"DM Serif Text", serif;'],
         para:['"Roboto", sans-serif;'],
-        head:['font-family: "Poppins", sans-serif;'],
-        cont:['font-family: "Oswald", sans-serif;'],
+        head:['"Poppins", sans-serif;'],
+        cont:['"Oswald", sans-serif;'],
         
       },
     },

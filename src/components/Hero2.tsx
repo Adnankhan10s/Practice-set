@@ -13,13 +13,13 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const bebasneue = Bebas_Neue({
   weight: '400',
   subsets: ['latin'],
-  display: 'swap'
+  display: 'swap',
 })
 
 const cookie = Cookie({
   weight: '400',
   subsets: ['latin'],
-  display: 'swap'
+  display: 'swap',
 })
 
 const Hero2 = () => {
@@ -44,15 +44,15 @@ const Hero2 = () => {
       </div>
 
 
-      <div className='md:flex  justify-center items-center pt-10 gap-8'>
+      <div className='md:flex  justify-center items-center pt-10 gap-6'>
         <Image
           src={Circle}
           alt='circle'
-          width={250}
-          height={250}
+          width={200}
+          height={200}
           className='rounded-full border-blue-600 border-[20px] mx-auto md:mx-0'
         />
-        <div className='flex justify-center items-center md:flex-none'  >
+        <div className='flex justify-center items-center '  >
           <ul className='md:text-sm text-[12px] md:pt-2 '>
             <li ><span><SiTicktick size={20} className='text-blue-600 inline-flex  ' /></span> You are overwhelmed with the heavy workload.</li>
             <li><span><SiTicktick size={20} className='text-blue-600 inline-flex' /></span> You feel tired of doing repetitive admin tasks.</li>
@@ -67,7 +67,7 @@ const Hero2 = () => {
             <p>Help is here; we are making your entrepreneurial journey more manageable.</p>
             
             
-            <Link href='/contact' className='md:mt-2  inline-flex items-center md:px-8 px-4 md:py-4 py-2 bg-[#f99b27] rounded-md text-white font-bold hover:bg-[#bb8c53] hover:text-black/70 '>FEEL FREE TO CONTACT US <MdOutlineKeyboardArrowRight size={22}  />
+            <Link href='/contact' className='md:mt-4  inline-flex items-center md:px-6 px-4 md:py-2 py-2 bg-[#f99b27] rounded-md text-white font-bold hover:bg-[#bb8c53] hover:text-black/70 '>FEEL FREE TO CONTACT US <MdOutlineKeyboardArrowRight size={22}  />
             </Link>
            
           </ul>

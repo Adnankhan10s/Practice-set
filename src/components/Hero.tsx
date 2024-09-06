@@ -1,21 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
-import Telephone from '@/../public/pngwing.com.png'
+import Telephone from '@/../public/pngwing.com.png';
 
 
 
 
 const Hero = () => {
     return (
-        <div className='md:w-full md:h-[700px] h-[800px]  items-center md:pt-28 bg-[#0066cc] ' id='home'>
+        <div className='md:w-full md:h-[600px] h-[800px]  items-center md:pt-20 bg-[#0066cc] ' id='home'>
             <div className=' text-center w-full  '>
                 
-                <p className='text-sm md:text-lg font-serif text-white/70 p-2 inline-flex items-center'>
+                <p className='text-sm  font-serif text-white/70 p-2 inline-flex items-center'>
                 Providing Real Estate Virtual Assistant Services since 2009 in  United States and other parts of the world.
                 </p>
                
                 
-                <div className='md:w-full text-white font-bold text-center text-xl md:text-4xl'>
+                <div className='md:w-full text-white font-bold text-center text-xl md:text-2xl'>
                    <h1 className='p-4 font-head'>ARE YOU A BUSY ENTREPRENEUR IMPACTED BY<br/>
                     INFLATION & HIGH OPERATIONAL COSTS?</h1>
                 </div>
