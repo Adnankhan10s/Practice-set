@@ -21,7 +21,7 @@ const page = ({params}:CategoryPageProps) => {
 
     return (
         <main>
-        <div className='bg-[#0066cc] md:w-full md:h-[1800px]  justify-center'>
+        <div className='bg-[#0066cc] md:w-full md:h-[1800px]  justify-center py-4 md:py-0'>
             <Navbar />
            
             <div className='md:w-full md:h-[300px]'>
