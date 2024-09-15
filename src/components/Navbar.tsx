@@ -9,7 +9,7 @@ import {motion} from 'framer-motion';
 
 
 const navLinks =[
-    {title:"Home", path:"#home"},
+    {title:"Home", path:"/"},
     {title:"About", path:"#about"},
     {title: "Services", path:"#services"},
     {title:"Blog Posts" , path:"/blogs"},
@@ -49,7 +49,7 @@ const Navbar = () => {
             <FaRegistered size={15} className='text-[#ff874a] pt-2 ' />
             </div>
             <div className=''>
-                <ul className='flex gap-4 pr-2 text-[16px] font-semibold'>
+                <ul className='flex gap-4 pr-2 text-[16px] lg:text-xl font-semibold'>
                     {navLinks.map((link , index)=>(
                        <li key={index} className='hover:text-[#ff874a]'>
                         <Link href={link.path}>{link.title}</Link>
@@ -59,11 +59,10 @@ const Navbar = () => {
             </div>
         </div>
         </div>
-        
+
+        {/* Mobile view */}
 <div className='md:hidden w-full h-[100px] bg-[#0066cc] text-white shadow-md  relative'>
          <div className=' text-center block items-center justify-center top-4 '>
-
-       
             <h1 className='font-semibold text-6xl pt-2 font-signature '>M N</h1>
             <div className='flex items-center justify-center'>
            <p className='font-semibold text-xl pr-2 font-para bg-gradient-to-b from-[#ff874a]  to-[#ffd9b2] inline-block text-transparent bg-clip-text'>Trusted </p>

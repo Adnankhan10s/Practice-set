@@ -4,20 +4,8 @@ import {motion} from 'framer-motion';
 import { Bebas_Neue } from 'next/font/google';
 import Link from 'next/link';
 import {MdOutlineKeyboardArrowRight} from "react-icons/md";
+import { categories } from '../../serviceData';
 
-
-const listLinks=[
-    {title:"Real Estate Reports Creation" , path:"/"},
-    {title:"Real Estate Social Media Marketing", path:"/"},
-    {title:"Data Entry, Data Mining, & Data Scraping" ,path :"/"},
-    {title:"Graphic Designing for Real estate Promos",path:"/"},
-    {title: "Graphic Designer Specialist ",path:"/"},
-    {title:"Spreadsheet & Documentation work", path:"/"},
-    {title:"Email Handling & Campaign Management",path:"/"},
-    {title:"General Administrative Support", path:"/"},
-    {title:"Search Engine Optimization", path:"/"}
-
-]
 
 const bebasneue = Bebas_Neue({
     weight: '400',
@@ -25,7 +13,7 @@ const bebasneue = Bebas_Neue({
     display: 'swap',
   })
 
-const Services = () => {
+const ServiceList = () => {
   return (
    <div className='md:w-full bg-[#e9d9bd] flex justify-center md:h-[600px] h-[800px] ' id='services'>
     <motion.div
@@ -34,7 +22,7 @@ const Services = () => {
     transition={{duration:0.6}}
     viewport={{once:true}}
 
-    className='md:w-[850px] px-3  text-center pt-6 md:h-[500px] mt-4 overflow-clip '
+    className='md:w-[1100px] px-3  text-center pt-6 md:h-[500px] mt-4 overflow-clip '
     >
       <div className='text-2xl md:text-4xl font-bold'>
         <h1 className={bebasneue.className}>WHAT VIRTUAL ASSISSTANT SERVICES</h1>
@@ -44,11 +32,11 @@ const Services = () => {
        <p className='text-start pt-2'>MN Trusted is a real estate virtual assistant service providing company that ensures streamlined management of your daily tasks.<span className='text-[#f99b27] font-cont font-bold cursor-pointer'> MN trusted </span> real estate virtual assistant services are the Holy Grail to enhance your productivity without working yourself out. The real estate virtual assistant services we offer include :</p>
  
  <div className='grid md:grid-cols-2   md:gap-x-16 gap-y-2 mt-10  '>
-          {listLinks.map((link,index)=>(
+          {categories.map((category)=>(
            
-       <Link href={link.path} className=' md:text-[14px] text-[12px]  px-2 py-2 border hover:bg-[#f99b27] hover:border-white hover:text-white border-[#f99b27]  text-[#f99b27] text-start md:items-end gap-4 inline-flex font-bold   'key={index}>
+       <Link key={category.id} href={`/categories/${category.id}`} className=' md:text-[16px] text-[12px]  px-2 py-2 border hover:bg-[#f99b27] hover:border-white hover:text-white border-[#f99b27]  text-[#f99b27] text-start md:items-end gap-4 inline-flex font-bold   '>
          
-             {link.title} <MdOutlineKeyboardArrowRight size={20}  /> 
+             {category.title} <MdOutlineKeyboardArrowRight size={20}  /> 
              </Link>
              
        ))   }
@@ -67,4 +55,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default ServiceList

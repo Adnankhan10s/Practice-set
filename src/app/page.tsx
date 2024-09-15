@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Hero2 from "@/components/Hero2";
 import Navbar from "@/components/Navbar";
-import Services from "@/components/Services";
+import ServiceList from "@/components/ServiceList";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
     <Hero />
     <Hero2 /> 
     <About />
-    <Services />
+    <ServiceList />
     <Footer /> 
     </>
   );
