@@ -27,7 +27,7 @@ const services = [
 
 const About = () => {
   return (
-    <div className='md:w-full md:h-[1100px] h-[2000px] bg-[#0066cc] space-y-4 md:space-y-0' id='about'>
+    <div className='md:w-full md:h-[1100px] h-[2050px] bg-[#0066cc] space-y-4 md:space-y-0' id='about'>
 
       <div className='flex h-[100px] text-white justify-center items-center text-6xl font-bold font-head  shadow-md'>
         <h1 className={bebasneue.className}>ABOUT US</h1>
