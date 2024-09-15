@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { Bebas_Neue } from "next/font/google";
+import { categories } from "../../serviceData";
 
 const bebas_neue = Bebas_Neue({
     weight:"400",
@@ -23,7 +24,6 @@ const schema = yup.object().shape({
 });
 
 const countries = ["United States", "Canada",  "United Kingdom", "Australia"];
-const categories = ["Support", "Sales", "General"];
 
 const  ContactForm=()=> {
     const {
@@ -105,8 +105,8 @@ const  ContactForm=()=> {
                     >
                         <option value="">Select Category</option>
                         {categories.map((category, index) => (
-                            <option key={index} value={category}>
-                                {category}
+                            <option key={index} >
+                                {category.title}
                             </option>
                         ))}
                     </select>
