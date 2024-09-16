@@ -19,7 +19,7 @@ const poppins = Poppins({
 const page = () => {
   return (
     <div className='md:w-full bg-blue-500  h-full'>
-      <div className='bg-transparent backdrop-blur-md md:w-full h-[70px] flex justify-between items-center shadow-lg px-5 fixed overflow-hidden'>
+      <div className='bg-transparent backdrop-blur-md w-full h-[70px] flex justify-between items-center shadow-lg px-5 fixed overflow-hidden'>
         <div className='flex p-2 '>
           <h1 className='font-bold md:text-6xl text-2xl font-signature'><Link href={"/"}>MN</Link></h1>
           <p className='font-semibold md:text-2xl text-sm font-para bg-gradient-to-b from-[#ff874a]  to-[#ffd9b2] inline-block text-transparent bg-clip-text'>Trusted </p>
