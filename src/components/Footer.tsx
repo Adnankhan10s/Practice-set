@@ -16,9 +16,9 @@ const roboto = Roboto({
   display: 'swap',
 })
 const navLinks = [
-  { title: "Home", path: "#home" },
-  { title: "About", path: "#about" },
-  { title: "Services", path: "#services" },
+  { title: "Home", path: "/../#home" },
+  { title: "About", path: "/../#about" },
+  { title: "Services", path: "/../#services" },
   { title: "Blog Posts", path: "/blogs" },
   { title: "Contact-Us", path: "/contact" }
 ]

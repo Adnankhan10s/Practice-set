@@ -22,9 +22,9 @@ const Hero = () => {
             </div>
            
 
-<div className=' md:w-full  md:h-[400px]  md:flex  justify-center items-center  gap-2 md:mt-20'>
-    <div className='md:min-w-[800px]  max-w-[350px]  md:min-h-[300px] mx-auto rounded  overflow-hidden  '>
-        <video className='md:min-w-[800px] w-[350px] rounded '  src='/virtual.mp4' width={600} height={300} autoPlay loop  preload='autoPlay' muted/>
+<div className=' md:w-full  md:h-[400px]  md:flex   justify-center items-center  gap-2 md:mt-20'>
+    <div className='bg-green-500 md:min-w-[800px]   max-w-[350px]  md:min-h-[300px] mx-auto rounded  overflow-hidden  '>
+        <video className='md:w-[800px]   w-[350px] rounded '  src='/virtual.mp4' width={600} height={300} autoPlay loop  preload='autoPlay' muted/>
     </div>
     <div className='md:w-[400px] h-[400px]  text-center pt-4 md:pt-0 justify-center md:content-center space-y-10  md:pr-14 '>
        <div className='w-[100px] mx-auto md:pt-4 pt-6'>

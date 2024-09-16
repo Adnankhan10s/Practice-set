@@ -51,7 +51,7 @@ const  ContactForm=()=> {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="md:max-w-4xl mx-auto p-8 bg-white/40 backdrop-blur-md shadow-lg rounded-lg">
-            <h1 className={`${bebas_neue} text-4xl font-bold mb-6 text-center text-[#ff874a]`}>Contact Us</h1>
+            <h1 className={`${bebas_neue.className}md:text-6xl text-4xl font-bold mb-6 text-center text-[#ff874a]`}>Contact Us</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                 <div>
