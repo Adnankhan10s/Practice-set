@@ -24,7 +24,7 @@ const bebasneue = Bebas_Neue({
 
 const Hero2 = () => {
   return (
-    <div className='md:min-w-full md:min-h-[850px]  px-4 md:px-0  max-h-[1200px] bg-white text-black text-4xl pt-10 '>
+    <div className='md:min-w-full md:min-h-[850px] w-full  px-4 md:px-0  max-h-[1200px] bg-white text-black text-4xl pt-10 '>
 
       <motion.div
         initial={{ opacity: 0 }}

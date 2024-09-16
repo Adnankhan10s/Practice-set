@@ -71,7 +71,7 @@ const Footer = () => {
 
       {/* Mobile view Footer*/}
 
-      <div className='md:hidden bg-[#0066cc] block justify-center items-center space-y-2 h-[420px]  text-[14px] '>
+      <div className='md:hidden w-full bg-[#0066cc] block justify-center items-center space-y-2 h-[420px]  text-[14px] '>
 
         <div className='h-[100px] '>
           <h1 className='font-bold text-white text-center text-xl pt-6'>CONTACT US :</h1>
