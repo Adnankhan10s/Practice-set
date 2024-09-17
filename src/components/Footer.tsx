@@ -30,7 +30,7 @@ const Footer = () => {
   return (
     <footer>
       <div className='hidden md:w-full md:block md:bg-[#0066cc]'>
-        <div className='hidden md:w-full md:h-[270px] h-[250px] md:flex justify-between px-6 items-center md:gap-10  '>
+        <div className='hidden md:w-full md:h-[270px] h-[250px] md:flex justify-between px-14 items-center md:gap-4  '>
 
 
 

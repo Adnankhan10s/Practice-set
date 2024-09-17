@@ -27,19 +27,19 @@ const services = [
 
 const About = () => {
   return (
-    <div className='md:w-full md:h-[1100px] lg:h-[1200px] h-[2050px] bg-[#0066cc] space-y-4 md:space-y-0' id='about'>
+    <div className='md:w-full md:h-full lg:min-h-[1200px] h-[2050px] bg-[#0066cc] space-y-4 md:space-y-0 overflow-clip' id='about'>
 
       <div className='flex h-[100px] text-white justify-center items-center text-6xl font-bold font-head  shadow-md'>
         <h1 className={bebasneue.className}>ABOUT US</h1>
       </div>
 
-      <div className='md:w-full w-auto md:h-[200px] h-[400px]    flex  justify-center items-center  '>
-       <div className='md:flex md:justify-center items-center content-center  md:w-full md:space-x-5 mt-10'>
-        <div className=' md:mx-0 mx-auto md:w-[450px] w-[350px]  h-[170px]  border-dashed border-2 border-gray-800 text-center p-2'>
+      <div className='md:w-full w-auto md:h-[200px] h-[400px]    flex  justify-center items-center   '>
+       <div className='md:flex md:justify-center items-center content-center  md:w-full md:space-x-10 mt-10 '>
+        <div className=' md:mx-0 mx-auto md:w-[450px] w-[350px]  h-[190px]  border-dashed border-2 border-gray-800 text-center p-2'>
           <h2 className='font-bold text-[#f99b27] md:text-xl'>Our Vision</h2>
           <p className='text-gray-800 font-bold md:font-bold md:pt-4  '> We envision ourselves as a partner of choice, providing value to customers and creating opportunities for their long-term and sustainable growth.</p>
         </div>
-        <div className='mt-2 md:mt-0  mx-auto md:mx-0 md:w-[450px] w-[350px] h-[170px] border-2 border-dashed border-gray-800 text-center p-2'>
+        <div className='mt-2 md:mt-0  mx-auto md:mx-0 md:w-[450px] w-[350px] h-[190px] border-2 border-dashed border-gray-800 text-center p-2'>
           <h2 className='font-bold text-[#f99b27] md:text-xl'>Our Mission</h2>
           <p className='text-gray-800 font-bold md:font-bold md:pt-2'>Our mission is to become the leading provider of value-added virtual assistant services globally and achieve it with the highest level of integrity and transparency, helping clients meet their business goals.</p>
         </div>
