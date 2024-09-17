@@ -1,5 +1,4 @@
 "use client"
-import { buttonVariants } from "@/components/ui/button"
 import Link from 'next/link';
 import React from 'react';
 import { FaRegistered } from 'react-icons/fa6';
@@ -65,7 +64,7 @@ const page = () => {
               </p>
 
             </div>
-            <div className='flex justify-center items-center py-2 '><Link href={"/"} className={buttonVariants({ variant: "ghost" })}>Read More</Link>
+            <div className='flex justify-center items-center py-2 '><Link href={"/"} className="">Read More</Link>
             </div>
           </div>
           <div className='shadow-xl w-[320px]  md:w-[350px] h-[470px]  mt-2  rounded overflow-hidden'>
@@ -78,7 +77,7 @@ const page = () => {
               </p>
 
             </div>
-            <div className='flex justify-center items-center py-2'><Link href={"/"} className={buttonVariants({ variant: "ghost" })}>Read More</Link>
+            <div className='flex justify-center items-center py-2'><Link href={"/"} className="">Read More</Link>
             </div>
           </div>
           <div className='shadow-xl w-[320px]  md:w-[350px] h-[470px]  mt-2  rounded overflow-hidden'>
@@ -91,7 +90,7 @@ const page = () => {
               </p>
 
             </div>
-            <div className='flex justify-center items-center py-2'><Link href={"/"} className={buttonVariants({ variant: "ghost" })}>Read More</Link>
+            <div className='flex justify-center items-center py-2'><Link href={"/"} className="">Read More</Link>
             </div>
           </div>
           <div className='shadow-xl w-[320px]  md:w-[350px] h-[470px] mt-2 rounded overflow-hidden'>
@@ -104,7 +103,7 @@ const page = () => {
               </p>
 
             </div>
-            <div className='flex justify-center items-center  py-2'><Link href={"/"} className={buttonVariants({ variant: "ghost" })}>Read More</Link>
+            <div className='flex justify-center items-center  py-2'><Link href={"/"} className="">Read More</Link>
             </div>
           </div>
           <div className='shadow-xl w-[320px]  md:w-[350px] h-[470px]  mt-2  rounded overflow-hidden'>
@@ -117,7 +116,7 @@ const page = () => {
               </p>
 
             </div>
-            <div className='flex justify-center items-center py-2 '><Link href={"/"} className={buttonVariants({ variant: "ghost" })}>Read More</Link>
+            <div className='flex justify-center items-center py-2 '><Link href={"/"} className="">Read More</Link>
             </div>
           </div>
         </div>
